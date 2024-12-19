@@ -415,7 +415,7 @@ async function main() {
   // Resize canvas to full browser screen and fit the desc
   function resizeCanvas() {
     canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.height = window.innerHeight*8/10;
 }
 
   function getExtents(positions) {
